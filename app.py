@@ -14,7 +14,7 @@ def handle_sum():
     }
     '''
     data = request.get_json()
-    return jsonify({'result': data['num1'] + data['num']})
+    return jsonify({'result': data['num1'] + data['num2']})
 
 
 if __name__ == '__main__':
